@@ -23,5 +23,4 @@ class SocialController(var properties: AppsProperties, var vkClient: VkClient) {
                 String::class.java)
         println(responseFB.toString())
     }
-
 }
